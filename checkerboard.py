@@ -1,10 +1,13 @@
 def checkerboard():
-    # string = ""
     for i in range(1,9):
-        if i % 2 == 0:
-            print "* * * * "
-        else
-            print " * * * *"
+        string = ""
+        if i % 2 != 0:
+            for j in range(4):
+                string += "* "
+            print string
+        else:
+            for k in range(4):
+                string += " *"
+            print string
 
-    #for odd levels, start with *
-    #for even levels, start with " "
+checkerboard()
