@@ -12,7 +12,7 @@ def typeList(arr):
             return
         if type(i) is str:
             newStr += i + " "
-        elif type(int(i)) is int:
+        elif isinstance(i,numbers.Number):
             sumOf += i
             # print str(sumOf)
 
