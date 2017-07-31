@@ -34,7 +34,6 @@ def filterByType(val):
         elif(len(val) < 10): #<10 chars print "short sentence"
             print "Short List."
 
-
 filterByType(sI)
 filterByType(mI)
 filterByType(bI)
